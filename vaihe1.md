@@ -48,23 +48,16 @@
 
 ## 💾 Tietoarkkitehtuuri ja tekninen suunnittelu
 
-- **Frontend:** HTML + CSS + JavaScript (myöhemmin React)
+- **Frontend:** HTML + CSS + JavaScript
 - **Backend:** Node.js + Express
 - **Tietokanta:** JSON-tiedosto tai SQLite (alustavasti JSON)
-- **REST API -endpoints:**
-  - `GET /games` – kaikki pelit
-  - `POST /games` – lisää uusi peli
-  - `DELETE /games/:id` – poista peli
-- Yksinkertainen ER-kaavio tehty:
-  - `Game { id, name, platform, year, description }`
 
----
 
 ## 📅 Projektinhallinta ja käyttäjätestaus
 
 - Käytetään GitHub Issues -työkaluja tehtävien seurantaan.
 - Tuntikirjanpito tiedostossa `tuntikirjaus.md`.
-- Käyttäjätestaus toteutetaan projektin myöhemmissä vaiheiss
+- Käyttäjätestaus toteutetaan projektin myöhemmissä vaiheissa
 
 ---
 
