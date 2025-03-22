@@ -1,8 +1,8 @@
 # Vaihe 1 – Määrittely ja suunnittelu
 
 **Kurssi:** IT00AK35-3003 Web-kehittämisen jatkokurssi – Päivätoteutus  
-**Tekijä:** Janne Raappana  
-**Työskentelymuoto:** Yksilötyö  
+**Tekijät:** Janne Raappana ja Matias Nisula
+**Työskentelymuoto:** Parityö  
 **Projekti:** Pelilista – Luo ja jaa oma pelilista suosikkipeleistäsi  
 **Päivämäärä:** 22.3.2025
 
@@ -44,8 +44,21 @@
 
  
 
+
 ---
 
+## 🖥️ Prototyyppi käyttöliittymästä
+
+✅ Prototyyppi luonnosteltu Figma-työkalulla.
+
+Näkymät:
+- Etusivu: Viimeisimmät pelilistat ja suosituimmat pelit.
+- Oman pelilistan luominen: yksinkertainen lomake pelien lisäykseen.
+- Yksittäisen pelin tiedot: nimi, kuvaus, alusta ja julkaisuvuosi.
+
+📎 https://www.figma.com/proto/cMviuo5FL7ZCzE4kE1b0lL/Untitled?node-id=1-2&p=f&t=nR0V6GmBmnfLKjNv-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2
+
+---
 ## 💾 Tietoarkkitehtuuri ja tekninen suunnittelu
 
 - **Frontend:** HTML + CSS + JavaScript
