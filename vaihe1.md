@@ -4,7 +4,7 @@
 **Tekijä:** Janne Raappana  
 **Työskentelymuoto:** Yksilötyö  
 **Projekti:** Pelilista – Luo ja jaa oma pelilista suosikkipeleistäsi  
-**Päivämäärä:** 21.3.2025
+**Päivämäärä:** 22.3.2025
 
 ---
 
