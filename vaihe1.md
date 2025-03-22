@@ -70,6 +70,6 @@
 
 ## ⏱️ Tuntikirjaus
 
-
+https://github.com/jannecentria/Projekti/blob/main/tuntikirjaus.md
 
 
