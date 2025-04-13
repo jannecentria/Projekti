@@ -1,0 +1,68 @@
+/* Sivun tausta ja tekstin väri */
+body {
+  font-family: Arial, sans-serif;        /* Fontti koko sivulle */
+  background: #0e0e20;                   /* Tumman sininen/musta tausta */
+  color: #fff;                           /* Valkoinen teksti */
+  padding: 20px;                         /* Reunaväli sivun ympärillä */
+}
+
+/* Sivun pääsisällön tyyli */
+main {
+  max-width: 600px;                      /* Sisältö ei veny yli 600px leveäksi */
+  margin: auto;                          /* Keskittää sisällön sivulle */
+  background: #1a1a2e;                   /* Tummempi laatikko taustaan nähden */
+  padding: 20px;                         /* Sisäinen tyhjä tila */
+  border-radius: 12px;                   /* Pyöristetyt reunat */
+}
+
+/* Otsikoiden keskitys */
+h1, h2 {
+  text-align: center;
+}
+
+/* Yksittäisen pelin kortin tyyli listassa */
+#game-list > div {
+  background: #252540;                   /* Pelikortin tausta */
+  margin: 10px 0;                        /* Väli korttien välillä */
+  padding: 15px;                         /* Sisäinen tyhjä tila */
+  border-radius: 8px;                    /* Pyöristetyt kulmat */
+  cursor: pointer;                       /* Kursori muuttuu klikattavaksi */
+  display: flex;                         /* Näytetään rivinä */
+  justify-content: space-between;       /* Otsikko ja poista-nappi erilleen */
+  align-items: center;                  /* Keskitetään pystysuunnassa */
+}
+
+/* Painikkeiden rivi (peruuta/tallenna) */
+.buttons {
+  display: flex;
+  justify-content: space-between;       /* Tasaa napit vasempaan ja oikeaan */
+  margin-top: 10px;
+}
+
+/* Yleiset painikkeet */
+button {
+  padding: 10px 20px;                   /* Sisätilaa painikkeissa */
+  border: none;                         /* Ei kehystä */
+  border-radius: 8px;                   /* Pyöristetyt reunat */
+  background: #888;                     /* Harmaa taustaväri */
+  color: white;                         /* Valkoinen teksti */
+  cursor: pointer;                      /* Kursori muuttuu osoittimeksi */
+}
+
+/* Tekstikentät ja tekstialueet (input, textarea) */
+input, textarea {
+  width: 100%;                          /* Vie koko rivin leveydeltä */
+  padding: 10px;
+  margin: 5px 0;                        /* Väli kenttien välillä */
+  border-radius: 6px;
+  border: none;                         /* Ei reunaviivaa */
+}
+
+/* Hakukenttä */
+#search {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  border: none;
+}

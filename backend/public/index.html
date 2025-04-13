@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pelilista</title>
+
+  <!-- Linkitetään tyylitiedosto -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main>
+    <!-- Sivun pääotsikko -->
+    <h1>Pelilista</h1>
+
+    <!-- Hakukenttä pelien etsimiseen -->
+    <input type="text" id="search" placeholder="Hae pelejä..." />
+
+    <!-- Tänne renderöidään pelilista JavaScriptin avulla -->
+    <div id="game-list"></div>
+
+    <!-- Nappi lomakkeen avaamiseen -->
+    <div class="buttons">
+      <button onclick="toggleForm()">Lisää peli</button>
+    </div>
+
+    <!-- Lomake uuden pelin lisäämiseen -->
+    <div id="game-form" style="display:none;">
+      <h2>Uusi peli</h2>
+
+      <!-- Pelin nimi -->
+      <input type="text" id="name" placeholder="Pelinnimi" />
+      <!-- Alustat (esim. PC, Xbox, PlayStation) -->
+      <input type="text" id="platform" placeholder="Alusta(t)" />
+      <!-- Julkaisupäivä -->
+      <input type="date" id="release" />
+      <!-- Kuvauskenttä -->
+      <textarea id="desc" placeholder="Lyhyt kuvaus"></textarea>
+
+      <!-- Napit: Peruuta ja Tallenna -->
+      <div class="buttons">
+        <button onclick="cancelForm()">Peruuta</button>
+        <button onclick="saveGame()">Tallenna</button>
+      </div>
+    </div>
+
+    <!-- Yksittäisen pelin tietonäkymä (näytetään kun klikataan pelin nimeä) -->
+    <div id="game-details" style="display:none;">
+      <h2 id="detail-name"></h2>
+      <p><strong>Alusta:</strong> <span id="detail-platform"></span></p>
+      <p><strong>Julkaisupäivä:</strong> <span id="detail-release"></span></p>
+      <p><strong>Kuvaus:</strong></p>
+      <p id="detail-desc"></p>
+      <button onclick="closeDetails()">Takaisin</button>
+    </div>
+  </main>
+
+  <!-- Linkitetään toiminnallisuus (JavaScript) -->
+  <script src="script.js"></script>
+</body>
+</html>
