@@ -71,4 +71,4 @@ Käyttää palvelua tietokoneella.
 ---
 
 ⏱️ Tuntikirjaus
-https://github.com/jannecentria/Projekti/blob/main/tuntikirjaus.md annan sinulle nyt infoa mitä olen tehnyt ja sitten ohjeet annan kuvat protootyypistä noin
+https://github.com/jannecentria/Projekti/blob/main/tuntikirjaus.md
