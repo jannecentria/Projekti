@@ -8,7 +8,7 @@
 
 ---
 
-## 📅 Työtunnit
+##  Työtunnit
 
 | Päivämäärä | Tunnit | Kuvaus |
 |------------|--------|--------|
@@ -28,7 +28,7 @@
 
 ---
 
-## 📌 Muistiinpanot
+##  Muistiinpanot
 
 - Käytetty teknologiat: HTML, CSS, JavaScript, Node.js, Express, SQLite
 - Figmaa käytettiin käyttöliittymäluonnoksen tekoon
