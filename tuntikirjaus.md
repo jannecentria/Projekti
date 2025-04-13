@@ -13,7 +13,7 @@
 | Päivämäärä | Tunnit | Kuvaus |
 |------------|--------|--------|
 | 22.3.2025  | 2 h    | Projektin aloitus, määrittely ja Figma-suunnitelman teko |
-| 23.3.2025  | 2 h    | Käyttäjäpersoonien ja käyttötapausten kirjaus |
+| 23.3.2025  | 1 h    | Käyttäjäpersoonien ja käyttötapausten kirjaus |
 | 25.3.2025  | 3 h    | HTML-pohjan ja lomakkeen rakenne |
 | 26.3.2025  | 2 h    | JavaScript-perustoimintojen rakentaminen |
 | 28.3.2025  | 3 h    | Backend (Node + Express) API-rungon teko |
